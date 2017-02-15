@@ -199,9 +199,6 @@ Vet is stricter in some ways and looser where it previously caused false positiv
 
 The new `go`bug` command starts a bug report on GitHub, prefilled with information about the current system.
 
-Example:
-
-.play examples/gobug.sh /go bug/
 
 * Mutex contention profile
 
@@ -387,7 +384,6 @@ A long requested feature, graceful shutdown of a `http.Server` was added in Go 1
 
 Call `Shutdown` when a signal is received:
 
-.code examples/shutdown.go /main\(\) {/,/^}
 
 * HTTP/2
 
